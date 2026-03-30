@@ -8,3 +8,5 @@ logs/
 .DS_Store
 nohup.out
 run_bot.sh
+build/
+tradingagents.egg-info/
