@@ -201,3 +201,18 @@ Sistem ini adalah alat bantu analisis, bukan jaminan profit. Crypto trading meng
 ## 📄 License
 
 MIT License
+
+## 🙏 Credits
+
+NEXUS AI dibangun di atas [TradingAgents](https://github.com/TauricResearch/TradingAgents) oleh [Tauric Research](https://github.com/TauricResearch) — Multi-Agent LLM Financial Trading Framework yang luar biasa.
+
+Modifikasi yang dilakukan di NEXUS AI:
+- Data layer diganti dari stocks ke crypto (Binance, CoinGecko, Alpha Vantage)
+- Tambahan Technical Analysis module (EMA, RSI, MACD, Bollinger, Support/Resistance)
+- Dynamic TP/SL berbasis Support/Resistance
+- Telegram bot integration untuk notifikasi dan kontrol
+- APScheduler untuk analisis otomatis multi-pair
+- Dukungan multi-interval per koin
+- Format output disesuaikan untuk crypto trading
+
+Original License: Apache 2.0
